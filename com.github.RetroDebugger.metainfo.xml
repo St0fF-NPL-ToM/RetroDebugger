@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <!-- Minimum: -->
+    <id>com.github.RetroDebugger</id>
+    <name>Retro Debugger</name>
+    <summary>A visual debugger/debugging host for 8 bit systems</summary>
+    <!-- You SHOULD license your metainfo.xml as CC0-1.0 -->
+    <metadata_license>CC0-1.0</metadata_license>
+    <!-- For now, the icon type MUST be local due to a bug where remote icon files do not work. This should be a .png or .svg application icon that gets installed by your package. -->
+    <icon type="local" name="assets/icons/RetroDebugger.svg">pixmaps/RetroDebugger.svg</icon>
+    <!-- Can be the GitHub page, prefer a website though-->
+    <url type="homepage">https://github.com/slajerek/RetroDebugger</url>
+    <url type="bugtracker">https://github.com/slajerek/RetroDebugger/issues</url>
+    <!-- Didn't have a better idea than <group.scener> ... -->
+    <developer id="samar.slajerek">
+        <name>Marcin Skoczylas</name>
+    </developer>
+
+    <project_license>Apache-2.0</project_license>
+    <launchable type="desktop-id">com.github.RetroDebugger.desktop</launchable>
+    <description> <!-- SHOULD be the same as the `%description` in your .spec file. -->
+        <p> A visual Debugger/debugging Host for 8 bit systems: <ul>
+                <li> C64 (VICE emulation)</li>
+                <li> NES (NEStopia)</li>
+                <li> Atari 800</li>
+                <li> C64Ultimate</li>
+            </ul>
+        </p>
+    </description>
+    <categories>
+        <category>Development</category>
+        <category>Debugger</category>
+    </categories>
+    <keywords>
+        <keyword translate="no">development</keyword>
+        <keyword translate="no">debugging</keyword>
+        <keyword translate="no">retro computing</keyword>
+        <keyword translate="no">retro</keyword>
+    </keywords>
+
+    <releases>
+        <release version="v1.0.0" date="2026-06-04" />
+    </releases>
+
+    <screenshots>
+        <screenshot type="default">
+            <caption>RetroDebugger v1.0.0 screenshot.</caption>
+            <image type="source">https://csdb.dk/release/viewpic.php?id=262051&amp;zoom=1</image>
+        </screenshot>
+    </screenshots>
+
+    <provides>
+        <binary>retrodebugger</binary>
+    </provides>
+</component>
