@@ -15,7 +15,6 @@
     <developer id="samar.slajerek">
         <name>Marcin Skoczylas</name>
     </developer>
-
     <project_license>Apache-2.0</project_license>
     <launchable type="desktop-id">com.github.RetroDebugger.desktop</launchable>
     <description> <!-- SHOULD be the same as the `%description` in your .spec file. -->
@@ -37,18 +36,15 @@
         <keyword translate="no">retro computing</keyword>
         <keyword translate="no">retro</keyword>
     </keywords>
-
     <releases>
         <release version="v1.0.0" date="2026-06-04" />
     </releases>
-
     <screenshots>
         <screenshot type="default">
             <caption>RetroDebugger v1.0.0 screenshot.</caption>
             <image type="source">https://csdb.dk/release/viewpic.php?id=262051&amp;zoom=1</image>
         </screenshot>
     </screenshots>
-
     <provides>
         <binary>retrodebugger</binary>
     </provides>
