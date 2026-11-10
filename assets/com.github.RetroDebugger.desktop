@@ -1,0 +1,9 @@
+[Desktop Entry]
+X-Desktop-File-Install-Version=0.28
+GenericName=retrodebugger
+Name=RetroDebugger
+Type=Application
+Categories=Development
+Comment=A visual debugger/debugging host for 8 bit systems.
+PrefersNonDefaultGPU=1
+SingleMainWindow=1
